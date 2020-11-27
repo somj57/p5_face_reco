@@ -1,0 +1,21 @@
+html, body {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  box-shadow: 0px 1px 60px 20px #888888;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 25px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  	
+  margin: auto;
+
+}
