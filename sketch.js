@@ -4,7 +4,7 @@ let video;
 let label = "waiting...";
 // The classifier
 let classifier;
-let modelURL = 'https://teachablemachine.withgoogle.com/models/Ju3HF1bWQ/';
+let modelURL = 'https://teachablemachine.withgoogle.com/models/6JsC-fDYZ/';
 
 // STEP 1: Load the model!
 function preload() {
@@ -42,7 +42,10 @@ function draw() {
   let emoji = "🍼";
   if (label == "Somya") {
     //emoji = "🙋🏽‍♂️";
-  } else if (label == "Bottel") {
+  } else if (label == "Suryansh") {
+    //emoji = "🍼";
+  } 
+  else if (label == "No-one") {
     //emoji = "🍼";
   } 
 
